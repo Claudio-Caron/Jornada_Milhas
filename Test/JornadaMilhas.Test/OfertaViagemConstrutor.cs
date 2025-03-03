@@ -1,4 +1,5 @@
 using JornadaMilhasV1.Modelos;
+using Microsoft.Identity.Client;
 
 namespace JornadaMilhas.Test;
 
@@ -18,7 +19,7 @@ public class OfertaViagemConstrutor
         //cenario - arrange
         Rota rota = new(origem, destino);
         Periodo periodo = new(DateTime.Parse(dataInicial), DateTime.Parse(dataFinal));
-
+         
 
         //ação (do teste) - action
         OfertaViagem oferta = new OfertaViagem(rota, periodo, preco);
@@ -53,41 +54,59 @@ public class OfertaViagemConstrutor
         Assert.Contains("Erro: Data de ida não pode ser maior que a data de volta.", oferta.Erros.Sumario);
         Assert.False(oferta.EhValido);
     }
-    [Fact]
-    public void ReturnErrorMessageWhenPrecoLessThanZero()
+    
+    [Theory]
+    [InlineData(0)]
+    [InlineData(-250)]
+    public void ReturnErrorMessageWhenPrecoLessThanZero(double preco)
     {
+        //arrange
         Rota rota = new Rota("Origem1", "Destino1");
-        Periodo periodo = new Periodo(new DateTime(2025, 8, 20), new DateTime(2025, 8, 30));
-        double preco = -250;
-        
+        Periodo periodo = new Periodo(new DateTime(2024, 8, 20), new DateTime(2024, 8, 30));
 
+        //act
         OfertaViagem oferta = new OfertaViagem(rota, periodo, preco);
 
-
+        //assert
         Assert.Contains("O preço da oferta de viagem deve ser maior que zero.", oferta.Erros.Sumario);
     }
-    //public void TestandoNomeMusica()
+    [Fact]
+    public void RetornaTresErrosDeValidacaoQuandoRotaPeriodoEPRecoSaoValidos()
+    {
+        int quantidadeEsperada = 3;
+        Rota rota = null;
+        Periodo periodo = new Periodo(new DateTime(2025, 6, 1), new DateTime(2025, 5, 10));
+        double preco = -100;
+        
+
+        OfertaViagem oferta = new(rota, periodo, preco);
+
+        Assert.Equal(quantidadeEsperada, oferta.Erros.Count());
+    }
+    //[Theory]
+    //[InlineData("Black in back")]
+    //public void InicializaNomeCorretamenteQuandoCadastraNovaMusica(string nome)
     //{
-    //    string nome = "Back in Black";
 
     //    var musica = new Mus(nome);
 
     //    Assert.Equal(nome, musica.Nome);
 
-        
+
 
     //}
-    //public void TestandoIdentityMusica()
+    //[Theory]
+    //[InlineData(0)]
+    //public void RightInicializedNameWhenPostMusic(int id)
     //{
-    //    var random = new Random();
-    //    int id = random.Next(30);
 
     //    var musica = new Mus("Crawling");
     //    musica.Id = id;
-         
+
     //    Assert.Equal(id, musica.Id);
 
     //}
+    //[Fact]
     //public void TestandoToStringMusica()
     //{
     //    var random = new Random();
@@ -99,5 +118,25 @@ public class OfertaViagemConstrutor
 
     //    Assert.Equal(@$"Id: {id} Nome: {nome}", musica.ToString());
 
+    //}
+
+    //[Fact]
+    //public void RetornaNuloQuandoAnoLancamentoNegativoOuNeutro()
+    //{
+    //    string nomeMusica = "Bohemian Rhapisody";
+    //    int anoLancamento = -2003;
+    //    Mus musica = new(nomeMusica) { AnoLancamento = anoLancamento};
+
+    //    Assert.Null(musica.AnoLancamento);
+
+    //}
+    //[Fact]
+    //public void RetornaNuloQuandoArtistaVazio()
+    //{
+    //    string artista = "Artista Desconhecido";
+
+    //    Mus musica = new("Oceano");
+
+    //    Assert.Equal(musica.Artista, artista);
     //}
 }

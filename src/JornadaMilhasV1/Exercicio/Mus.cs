@@ -1,5 +1,10 @@
-﻿public class Mus
+﻿using Microsoft.IdentityModel.Tokens;
+
+public class Mus
 {
+    private int? anoLancamento;
+    private string? artista = "Artista Desconhecido";
+
     public Mus(string nome)
     {
         Nome = nome;
@@ -7,7 +12,38 @@
 
     public string Nome { get; set; }
     public int Id { get; set; }
-    public string Artista { get; set; }
+    public string? Artista 
+    {
+        get => artista;
+        set
+        {
+            if (value.IsNullOrEmpty())
+            {
+                artista = "Artista Desconhecido";
+            }
+            else
+            {
+                artista = value;
+            }
+
+        }
+    } 
+    public int? AnoLancamento 
+    { 
+        get => anoLancamento;
+        set
+        {
+            if(value <= 0)
+            {
+                anoLancamento = null;
+            }
+            else
+            {
+                anoLancamento = value;
+            }
+            
+        }
+    }
 
     public void ExibirFichaTecnica()
     {
