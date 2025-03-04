@@ -27,7 +27,7 @@ public class OfertaViagem: Valida
             if (desconto > MAX_DESCONTO*Preco)
             {
                 desconto = MAX_DESCONTO * Preco;
-            }else if (desconto <= 0)
+            }else if (desconto < 0)
             {
                 desconto = 0;
             }
@@ -55,6 +55,7 @@ public class OfertaViagem: Valida
         if (!Periodo.EhValido)
         {
             Erros.RegistrarErro(Periodo.Erros.Sumario);
+
         }
         if (Rota == null || Periodo == null)
         {
@@ -66,3 +67,4 @@ public class OfertaViagem: Valida
         }
     }
 }
+    

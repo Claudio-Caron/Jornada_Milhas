@@ -42,6 +42,7 @@ public class OfertaViagemConstrutor
         Assert.False(oferta.EhValido);
 
     }
+    [Fact]
     public void ReturnDateErrorMessageWhenFinalDateLessInitialDate()
     {
         Rota rota = new("OrigemTeste", "DestinoTeste");
