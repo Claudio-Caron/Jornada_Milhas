@@ -2,13 +2,14 @@
 
 public class Mus
 {
-    private int? anoLancamento;
+    private int? anoLancamento = null;
     private string? artista = "Artista Desconhecido";
 
     public Mus(string nome)
     {
         Nome = nome;
     }
+
 
     public string Nome { get; set; }
     public int Id { get; set; }
@@ -27,13 +28,13 @@ public class Mus
             }
 
         }
-    } 
-    public int? AnoLancamento 
-    { 
+    }
+    public int? AnoLancamento
+    {
         get => anoLancamento;
         set
         {
-            if(value <= 0)
+            if (value <= 0)
             {
                 anoLancamento = null;
             }
@@ -41,7 +42,7 @@ public class Mus
             {
                 anoLancamento = value;
             }
-            
+
         }
     }
 

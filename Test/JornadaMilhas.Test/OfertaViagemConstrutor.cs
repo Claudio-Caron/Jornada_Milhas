@@ -1,3 +1,4 @@
+using Bogus;
 using JornadaMilhasV1.Modelos;
 using Microsoft.Identity.Client;
 
@@ -127,20 +128,42 @@ public class OfertaViagemConstrutor
     //[Fact]
     //public void RetornaNuloQuandoAnoLancamentoNegativoOuNeutro()
     //{
-    //    string nomeMusica = "Bohemian Rhapisody";
-    //    int anoLancamento = -2003;
-    //    Mus musica = new(nomeMusica) { AnoLancamento = anoLancamento};
+    //    string nomeArtista = "Djavan";
+    //    var fakerMusica = new Faker<Mus>()
+    //        .CustomInstantiator(f =>
+    //        {
+    //            return new Mus(f.Lorem.Word());
+    //        })
+    //        .RuleFor(f => f.AnoLancamento, f => f.Random.Int(-1, 0))
+    //        .RuleFor(f => f.Id, f => f.IndexFaker)
+    //        .RuleFor(f => f.Artista, nomeArtista);
 
+        
+
+    //    Mus musica = fakerMusica.Generate();
+
+
+        
     //    Assert.Null(musica.AnoLancamento);
 
     //}
     //[Fact]
-    //public void RetornaNuloQuandoArtistaVazio()
+    //public void RetornaArtistaDesconhecidoQuandoArtistaVazio()
     //{
     //    string artista = "Artista Desconhecido";
+    //    var fakerMusica = new Faker<Mus>()
+    //        .CustomInstantiator(f =>
+    //        {
+    //            return new Mus(f.Lorem.Word());
+    //        })
+    //        .RuleFor(f => f.AnoLancamento, f => f.Date.Past(50).Year)
+    //        .RuleFor(f => f.Id, f => f.IndexFaker);
 
-    //    Mus musica = new("Oceano");
+
+    //    Mus musica = fakerMusica.Generate();
 
     //    Assert.Equal(musica.Artista, artista);
     //}
+
+
 }

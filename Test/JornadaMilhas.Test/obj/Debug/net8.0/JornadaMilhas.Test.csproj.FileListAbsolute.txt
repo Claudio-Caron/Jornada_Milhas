@@ -18,6 +18,7 @@ C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\Test\JornadaMilhas.Test\bin\Debug\net8.0\JornadaMilhas.Test.pdb
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\Test\JornadaMilhas.Test\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\Test\JornadaMilhas.Test\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\Test\JornadaMilhas.Test\bin\Debug\net8.0\Bogus.dll
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\Test\JornadaMilhas.Test\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\Test\JornadaMilhas.Test\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\Test\JornadaMilhas.Test\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll

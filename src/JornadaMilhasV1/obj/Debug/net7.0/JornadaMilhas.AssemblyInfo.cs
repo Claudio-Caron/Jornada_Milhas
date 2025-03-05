@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JornadaMilhas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3d3789e7777fa529307312fe62c97f5b08d1213")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee54e5da33715781496174e6f71e1634bb62cce9")]
 [assembly: System.Reflection.AssemblyProductAttribute("JornadaMilhas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JornadaMilhas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

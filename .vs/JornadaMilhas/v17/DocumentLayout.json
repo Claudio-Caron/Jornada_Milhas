@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\gerencidor\\gerenciadordeofertas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\gerencidor\\gerenciadordeofertas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\test\\jornadamilhas.test\\rotavalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|solutionrelative:test\\jornadamilhas.test\\rotavalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\test\\jornadamilhas.test\\gerenciadordeofertasrecuperamaiordesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|solutionrelative:test\\jornadamilhas.test\\gerenciadordeofertasrecuperamaiordesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\modelos\\rota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\modelos\\rota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\modelos\\ofertaviagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\modelos\\ofertaviagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\validador\\ivalidavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\validador\\ivalidavel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\validador\\valida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\validador\\valida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\test\\jornadamilhas.test\\ofertaviagemconstrutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|solutionrelative:test\\jornadamilhas.test\\ofertaviagemconstrutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\modelos\\periodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\modelos\\periodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\exercicio\\mus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\exercicio\\mus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\test\\jornadamilhas.test\\gerenciadordeofertasrecuperamaiordesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|solutionrelative:test\\jornadamilhas.test\\gerenciadordeofertasrecuperamaiordesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\test\\jornadamilhas.test\\ofertaviagemdesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{254E7317-E088-4D1D-908B-D2645D21E8E2}|Test\\JornadaMilhas.Test\\JornadaMilhas.Test.csproj|solutionrelative:test\\jornadamilhas.test\\ofertaviagemdesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\exercicio\\mus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\exercicio\\mus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\modelos\\periodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\modelos\\periodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\modelos\\ofertaviagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\modelos\\ofertaviagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|c:\\users\\claud\\versionamento\\jornadamilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\jornadamilhasv1\\gerencidor\\gerenciadordeofertas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12ECD4A5-4B9C-4351-AC72-FA1675783986}|src\\JornadaMilhasV1\\JornadaMilhas.csproj|solutionrelative:src\\jornadamilhasv1\\gerencidor\\gerenciadordeofertas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,49 +54,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IValidavel.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Validador\\IValidavel.cs",
+              "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Validador\\IValidavel.cs",
+              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Validador\\IValidavel.cs",
+              "RelativeToolTip": "src\\JornadaMilhasV1\\Validador\\IValidavel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywCUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:38:50Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
-              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
-              "RelativeDocumentMoniker": "Test\\JornadaMilhas.Test\\GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
-              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
-              "RelativeToolTip": "Test\\JornadaMilhas.Test\\GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAswEIAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Valida.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Validador\\Valida.cs",
+              "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Validador\\Valida.cs",
+              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Validador\\Valida.cs",
+              "RelativeToolTip": "src\\JornadaMilhasV1\\Validador\\Valida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T16:23:16.713Z",
+              "WhenOpened": "2025-03-05T19:38:38.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GerenciadorDeOfertas.cs",
-              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Gerencidor\\GerenciadorDeOfertas.cs",
-              "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Gerencidor\\GerenciadorDeOfertas.cs",
-              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Gerencidor\\GerenciadorDeOfertas.cs",
-              "RelativeToolTip": "src\\JornadaMilhasV1\\Gerencidor\\GerenciadorDeOfertas.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAIA5wFgAAAALAAAAAAAAAA==",
+              "Title": "RotaValida.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\RotaValida.cs",
+              "RelativeDocumentMoniker": "Test\\JornadaMilhas.Test\\RotaValida.cs",
+              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\RotaValida.cs",
+              "RelativeToolTip": "Test\\JornadaMilhas.Test\\RotaValida.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T16:22:16.967Z",
+              "WhenOpened": "2025-03-05T18:25:48.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OfertaViagemConstrutor.cs",
-              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\OfertaViagemConstrutor.cs",
-              "RelativeDocumentMoniker": "Test\\JornadaMilhas.Test\\OfertaViagemConstrutor.cs",
-              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\OfertaViagemConstrutor.cs",
-              "RelativeToolTip": "Test\\JornadaMilhas.Test\\OfertaViagemConstrutor.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDwAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Rota.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Modelos\\Rota.cs",
+              "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Modelos\\Rota.cs",
+              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Modelos\\Rota.cs",
+              "RelativeToolTip": "src\\JornadaMilhasV1\\Modelos\\Rota.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T16:23:01.769Z",
+              "WhenOpened": "2025-03-05T18:22:52.603Z",
               "EditorCaption": ""
             },
             {
@@ -88,21 +117,25 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OfertaViagem.cs",
-              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Modelos\\OfertaViagem.cs",
-              "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Modelos\\OfertaViagem.cs",
-              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Modelos\\OfertaViagem.cs",
-              "RelativeToolTip": "src\\JornadaMilhasV1\\Modelos\\OfertaViagem.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T16:42:30.426Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "OfertaViagemConstrutor.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\OfertaViagemConstrutor.cs",
+              "RelativeDocumentMoniker": "Test\\JornadaMilhas.Test\\OfertaViagemConstrutor.cs",
+              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\OfertaViagemConstrutor.cs",
+              "RelativeToolTip": "Test\\JornadaMilhas.Test\\OfertaViagemConstrutor.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAiwIMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T16:23:01.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Periodo.cs",
               "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Modelos\\Periodo.cs",
               "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Modelos\\Periodo.cs",
@@ -115,33 +148,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "OfertaViagemDesconto.cs",
               "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\OfertaViagemDesconto.cs",
               "RelativeDocumentMoniker": "Test\\JornadaMilhas.Test\\OfertaViagemDesconto.cs",
               "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\OfertaViagemDesconto.cs",
               "RelativeToolTip": "Test\\JornadaMilhas.Test\\OfertaViagemDesconto.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T16:33:35.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Mus.cs",
               "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Exercicio\\Mus.cs",
               "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Exercicio\\Mus.cs",
               "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Exercicio\\Mus.cs",
               "RelativeToolTip": "src\\JornadaMilhasV1\\Exercicio\\Mus.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T21:54:03.583Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
+              "RelativeDocumentMoniker": "Test\\JornadaMilhas.Test\\GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
+              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\Test\\JornadaMilhas.Test\\GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
+              "RelativeToolTip": "Test\\JornadaMilhas.Test\\GerenciadorDeOfertasRecuperaMaiorDesconto.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:23:16.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OfertaViagem.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Modelos\\OfertaViagem.cs",
+              "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Modelos\\OfertaViagem.cs",
+              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Modelos\\OfertaViagem.cs",
+              "RelativeToolTip": "src\\JornadaMilhasV1\\Modelos\\OfertaViagem.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:42:30.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GerenciadorDeOfertas.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Gerencidor\\GerenciadorDeOfertas.cs",
+              "RelativeDocumentMoniker": "src\\JornadaMilhasV1\\Gerencidor\\GerenciadorDeOfertas.cs",
+              "ToolTip": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\src\\JornadaMilhasV1\\Gerencidor\\GerenciadorDeOfertas.cs",
+              "RelativeToolTip": "src\\JornadaMilhasV1\\Gerencidor\\GerenciadorDeOfertas.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAASwFgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:22:16.967Z",
+              "EditorCaption": ""
             }
           ]
         },
