@@ -46,13 +46,16 @@ public class OfertaViagemConstrutor
     public void ReturnDateErrorMessageWhenFinalDateLessInitialDate()
     {
         Rota rota = new("OrigemTeste", "DestinoTeste");
-        Periodo periodo = new(new DateTime(2024, 2, 5), new DateTime(2024, 2, 1));
+        DateTime dataInicial = new DateTime(2024, 2, 5);
+        DateTime dataFinal = new DateTime(2024, 2, 1);
+        Periodo periodo = new(dataInicial, dataFinal);
         double preco = 100;
         bool validacao = true;
 
         OfertaViagem oferta = new(rota, periodo, preco);
 
         Assert.Contains("Erro: Data de ida não pode ser maior que a data de volta.", oferta.Erros.Sumario);
+        Assert.NotEqual(dataInicial, dataFinal);
         Assert.False(oferta.EhValido);
     }
     
