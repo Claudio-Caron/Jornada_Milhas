@@ -1524,6 +1524,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.15",
+          "Microsoft.SqlServer.Server": "1.0.0",
           "System.Diagnostics.Tools": "4.3.0"
         },
         "runtime": {

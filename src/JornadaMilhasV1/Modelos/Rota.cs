@@ -38,6 +38,10 @@ public class Rota: Valida
         Destino = destino;
         Validar();
     }
+    public Rota()
+    {
+        
+    }
 
     protected override void Validar()
     {
