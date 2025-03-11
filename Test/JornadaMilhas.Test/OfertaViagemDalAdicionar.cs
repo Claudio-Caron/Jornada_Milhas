@@ -7,31 +7,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xunit.Abstractions;
 
 namespace JornadaMilhas.Test;
 
-public class OfertaViagemDalAdicionar
+public class OfertaViagemDalAdicionar:IClassFixture<ContextoFixture>
 {
     
     private readonly JornadaMilhasContext context;
 
-    public OfertaViagemDalAdicionar()
+    
+    public OfertaViagemDalAdicionar(ITestOutputHelper output, ContextoFixture fixture)
     {
-        var options = new DbContextOptionsBuilder<JornadaMilhasContext>()
-            .UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=JornadaMilhas;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False")
-            .Options;
-        context = new JornadaMilhasContext(options);
+        
+        context = fixture.Context;
+        output.WriteLine(context.GetHashCode().ToString());
     }
     [Fact]
     public void RegistraOfertaNoBanco()
     {
         //arrange
-        Rota rota = new Rota("São Paulo", "Fortaleza");
-        Periodo periodo = new Periodo(new DateTime(2025, 03, 07), new DateTime(2025, 03, 19));
-        double preco = 350;
-
-        
-        var oferta = new OfertaViagem(rota, periodo, preco);
+        var oferta = SetupOfertaViagem();
         var dal = new OfertaViagemDAL(context);
 
 
@@ -44,6 +40,7 @@ public class OfertaViagemDalAdicionar
         Assert.NotNull(ofertaIncluida);
         Assert.Equal(ofertaIncluida.Preco, oferta.Preco);
         
+        
 
     }
 
@@ -51,14 +48,11 @@ public class OfertaViagemDalAdicionar
     public void RegistraOfertaNoBancoComInformacoesCorretas()
     {
         //arrange
-        Rota rota = new Rota("São Paulo", "Fortaleza");
-        Periodo periodo = new Periodo(new DateTime(2025, 03, 07), new DateTime(2025, 03, 19));
-        double preco = 350;
 
-       
+
+
+        var oferta = SetupOfertaViagem();
         
-
-        var oferta = new OfertaViagem(rota, periodo, preco);
         var dal = new OfertaViagemDAL(context);
 
 
@@ -76,5 +70,13 @@ public class OfertaViagemDalAdicionar
         Assert.Equal(ofertaIncluida.Periodo.DataFinal, oferta.Periodo.DataFinal);
 
 
+    }
+    public OfertaViagem SetupOfertaViagem()
+    {
+        Rota rota = new Rota("São Paulo", "Fortaleza");
+        Periodo periodo = new Periodo(new DateTime(2025, 03, 07), new DateTime(2025, 03, 19));
+        double preco = 350;
+
+        return new OfertaViagem(rota, periodo, preco);
     }
 }

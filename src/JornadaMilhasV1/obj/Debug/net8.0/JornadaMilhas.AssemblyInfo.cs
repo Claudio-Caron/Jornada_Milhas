@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JornadaMilhas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37f14f8b04d036d11a0163fce8f840c16a104e3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11bbb1928e997b4c80cc1fbb8303afb61809af60")]
 [assembly: System.Reflection.AssemblyProductAttribute("JornadaMilhas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JornadaMilhas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
