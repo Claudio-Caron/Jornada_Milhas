@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[17.8.0, )"
             },
+            "Testcontainers.MsSql": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"

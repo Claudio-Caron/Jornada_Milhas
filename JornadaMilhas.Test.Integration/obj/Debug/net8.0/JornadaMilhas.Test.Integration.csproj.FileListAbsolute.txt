@@ -151,3 +151,11 @@ C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\obj\Debug\net8.0\JornadaMilhas.Test.Integration.pdb
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\obj\Debug\net8.0\JornadaMilhas.Test.Integration.genruntimeconfig.cache
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\obj\Debug\net8.0\ref\JornadaMilhas.Test.Integration.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\Docker.DotNet.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\Docker.DotNet.X509.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\Renci.SshNet.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\SshNet.Security.Cryptography.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\Testcontainers.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\Testcontainers.MsSql.dll
