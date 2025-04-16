@@ -159,3 +159,4 @@ C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\SshNet.Security.Cryptography.dll
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\Testcontainers.dll
 C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\Testcontainers.MsSql.dll
+C:\Users\claud\Versionamento\JornadaMilhas\3639-csharptestes-jornadamilhas-curso1\JornadaMilhas.Test.Integration\bin\Debug\net8.0\Bogus.dll

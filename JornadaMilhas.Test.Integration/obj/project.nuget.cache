@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eCAoF+2qBtU=",
+  "dgSpecHash": "G/tnGh5QWFE=",
   "success": true,
   "projectFilePath": "C:\\Users\\claud\\Versionamento\\JornadaMilhas\\3639-csharptestes-jornadamilhas-curso1\\JornadaMilhas.Test.Integration\\JornadaMilhas.Test.Integration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\claud\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\bogus\\35.4.0\\bogus.35.4.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\docker.dotnet\\3.125.15\\docker.dotnet.3.125.15.nupkg.sha512",
