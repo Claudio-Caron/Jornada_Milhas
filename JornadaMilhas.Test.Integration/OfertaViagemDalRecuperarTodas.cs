@@ -1,4 +1,5 @@
 ﻿using JornadaMilhas.Dados;
+using JornadaMilhasV1.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace JornadaMilhas.Test.Integration
         {
             //arrange
             var dal = new OfertaViagemDAL(context);
-
+            
             //act
             var ofertasViagem = dal.RecuperarTodas();
 

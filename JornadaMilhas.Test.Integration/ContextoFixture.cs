@@ -1,4 +1,6 @@
-﻿using JornadaMilhas.Dados;
+﻿using Bogus;
+using JornadaMilhas.Dados;
+using JornadaMilhasV1.Modelos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestPlatform.Utilities;
 using System;
@@ -20,10 +22,28 @@ public class ContextoFixture:IAsyncLifetime
         .Build();
 
     public ContextoFixture()
+    { 
+    }
+    public void CriaDadosFake()
     {
 
-        
-        
+        Periodo periodo = new PeriodoDataBuilder().Build();
+
+        var rota = new Rota("Curitiba", "São Paulo");
+
+        var fakerOferta = new Faker<OfertaViagem>()
+            .CustomInstantiator(f =>
+            {
+                return new OfertaViagem(rota, new PeriodoDataBuilder().Build(), 100 * f.Random.Int(1, 100));
+            })
+            .RuleFor(o => o.Desconto, f => 40)
+            .RuleFor(o => o.Ativa, f => true);
+
+        var lista = fakerOferta.Generate(200);
+        Context.OfertasViagem.AddRange(lista);
+        Context.SaveChanges();
+
+
     }
 
     public async Task InitializeAsync()
