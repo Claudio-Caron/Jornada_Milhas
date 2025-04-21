@@ -45,6 +45,15 @@ public class ContextoFixture:IAsyncLifetime
 
 
     }
+    public async Task LimpaDadosDoBancoAsync()
+    {
+        //Context.OfertasViagem.RemoveRange(Context.OfertasViagem);
+        //Context.Rotas.RemoveRange(Context.Rotas);
+        //await Context.SaveChangesAsync();
+
+        Context.Database.ExecuteSqlRaw("DELETE FROM OfertasViagem");
+        Context.Database.ExecuteSqlRaw("DELETE FROM Rotas");
+    }
 
     public async Task InitializeAsync()
     {
