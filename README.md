@@ -1,2 +1,2 @@
 # Jornada_Milhas
-repositório utilizado para aprendizagem de testes de unidade com xUnit
+Aplicação de testes de unidade com nUnit e testes de integração com Banco de dados com xUnit
